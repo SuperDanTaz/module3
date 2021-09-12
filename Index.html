@@ -33,7 +33,11 @@
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
+            <li class="visible-xs">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li class="active">
               <a href="menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
@@ -45,55 +49,59 @@
               <a href="#">
                 <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact Us</a>
              </li>
-              <li id="phone" class="hidden-xs">
-              <a href="tel:651-333-0859">
-                <span>651-333-0859</span></a><div>* We Deliver</div>
-            </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
 
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:651-333-0859">
-    <span class="glyphicon glyphicon-earphone"></span>
-    651-333-0859
-    </a>
-  </div>
-  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-
   <div id="main-content" class="container">
-    <h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
-    <div class="text-center">
-      If you want to substitute white rice for brown rice there is an additional $1.50 charge.
-    </div>
+    <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+    <div class="text-center">Lunch is not served until after 1pm.</div>
 
     <section class="row">
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Chicken
-            <span>Chicken</span>
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
-        </a>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Chicken</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
       </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Beef">
-            <span>Beef</span>
+<section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
-        </a>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Beef</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
       </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Sushi">
-            <span>Sushi</span>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+    <section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
-        </a>
-    </section>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Sushi</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+  </section>
 
   </div><!-- End of #main-content -->
 
