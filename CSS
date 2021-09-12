@@ -6,56 +6,49 @@ body {
 }
 
 /** HEADER **/
-#header-nav {
-  background-color: #E7F725;
-  border-radius: 0;
-  border: 0;
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
 }
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
-.navbar-brand {
-  padding-top: 25px;
+.topnav #myLinks {
+  display: none;
 }
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
-#nav-list {
-  margin-top: 10px;
-  text-align: center;
-  color: #43A455;
-}
-#nav-list a {
-  color: #43A455;
-  gn: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
 /* END HEADER */
 
@@ -210,5 +203,3 @@ h3.menu-item-title {
     float: left;
     width: 100%;
   }
-}
-
