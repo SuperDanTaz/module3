@@ -95,6 +95,8 @@
 /* END MENU CATEGORIES PAGE */
 
 /* SINGLE CATEGORY PAGE */
+text-decoration: none;  
+} 
 .menu-item-tile {
   margin-bottom: 25px;
   text-align: Center;
@@ -221,13 +223,34 @@ h3.menu-item-title {
   
   <body>
   <header>
-        <div class="topnav">
-          <a href="#home" class="active">Food.llc</a>
-            <div>
-              <a>Menu</a>
-              <a>About</a>
-              <a>Contact Us</a>
-        </div>
+    <nav class="navbar navbar-light light-blue lighten-4">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" id="#">Food.llc</a>
+
+  <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <ul class="nav-item active">
+        <a class="nav-link" id="#">Home <span class="sr-only"></span></a>
+      </ul>
+      <ul class="nav-item">
+        <a class="nav-link" id="#">About</a>
+      </ul>
+      <ul class="nav-item">
+        <a class="nav-link" id="#">Contact Us</a>
+      </ul>
+    </ul>
+    <!-- Links -->
+
+  </div>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
